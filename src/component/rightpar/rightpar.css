@@ -1,0 +1,127 @@
+.rightpar{
+    flex:3.5;
+}
+.rightwrapper{
+    margin: 0px 20px;
+}
+.birthdaycontaner{
+    display: flex;
+    align-items: center;
+}
+.birtimage{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.birttext{
+    font-weight: 300;
+    font-size: 15px;
+}
+.rightbard{
+    width: 100%;
+    border-radius: 10px;
+    margin: 10px 0;
+   
+}
+.righttitle{
+    margin-bottom: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    text-transform: capitalize;
+    border-bottom: 1px solid black;
+    width:50%;
+}
+.findlist{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.rightpardfrinds{
+    display: flex;
+    align-items:center;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+ .rightparimagecontener{
+    margin-bottom: 10px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+ }
+ .rightparprofile{
+    width: 40px;
+    height:40px ;
+    border-radius:50%;
+    object-fit: cover;
+ }
+ .online{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(0, 254, 0);
+    border-radius: 50%;
+    position:absolute;
+top: -2px;
+right: 0px;
+border: 2px solid white;
+ }
+ .rightuname{
+font-weight: 500;
+margin-left: 10px;
+ }
+ .rightparinfotitle{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+ }
+  
+.rightparinfoitems{
+    margin: 20px 0;
+    background-color:rgb(236, 238, 238);
+    padding: 10px;
+    border-radius:4px
+}
+.rightparinfoitem{
+    margin-bottom: 10px;
+}
+.key{
+    margin-right: 5px;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.value{
+    color:rgb(56, 56, 56);
+    font-size: 15px;
+}
+.rightpartitle{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.followings{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.follow{
+    display: flex;
+flex-direction: column;
+cursor: pointer;
+margin-bottom: 20px;
+}
+.followimage{
+width: 100px;
+height: 100px;
+object-fit: cover;
+border-radius:5px;
+margin: 0px 3px;
+}
+.followname{
+display: flex;
+align-items:center;
+justify-content: center;
+margin-top: 5px;
+text-transform: capitalize;
+font-size:  14px;
+}
